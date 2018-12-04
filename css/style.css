@@ -1,0 +1,106 @@
+body {
+
+
+
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 5% 95%;
+  grid-template-rows: 0.9fr;
+  grid-gap: 1px 1px;
+  grid-template-areas:
+
+
+  "menu boddy";
+}
+
+
+
+.menu { grid-area: menu;        border-width : 1px;
+        border-color : black;
+
+float:right;
+
+ }
+
+
+.boddy { grid-area: boddy;        border-width : 1px;
+
+     border: 1px solid #ddd;
+     border-radius:6px;
+     margin-left: 3%;
+ }
+
+
+ img { text-align: right;
+   float: right;
+   }
+h1 { text-align: center;
+  margin-left: 20px;
+  }
+
+
+
+
+  .low-risk{
+      background: green;
+  }
+
+  .medium-risk{
+      background: orange;
+  }
+
+  .high-risk{
+      background: red;
+  }
+
+
+   /*****TABLEAUUU****/
+   table {
+       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       border-collapse: collapse;
+    margin: 5%;
+           background-color: #ddd;
+           font-size: 70%;
+
+
+   }
+
+   table td, table th, table tr {
+       border: 1px solid #ddd;
+               text-align: center;
+
+
+   }
+
+   table tr:nth-child(even){background-color: #f2f2f2;}
+
+   table tr:hover {background-color: #F7F8E0;}
+
+   table th {
+
+       text-align: left;
+       background-color: #2196F3;
+       color: white;
+   }
+
+   @media only screen and (max-width: 768px) {
+
+   .container table,
+   .container table tbody,
+   .container table th,
+   .container table tr,
+   .container table td {
+     font-size: 4px;
+   }
+   @media only screen and (max-width: 460px) {
+
+   .container table,
+   .container table tbody,
+   .container table th,
+   .container table tr,
+   .container table td {
+     display: block;
+     font-size: 2px;
+   }
