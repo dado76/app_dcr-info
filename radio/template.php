@@ -28,7 +28,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <img src="https://3d.codah.fr/img/logos/logo_codah_big.jpg"class="w3-margin-right" style="width:46px">
     </div>
     <div class="w3-col s8 w3-bar">
-      <span>Bienvenu, <strong></strong></span><br>
+      <span>bienvenue, <strong></strong></span><br>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
 
     </div>
