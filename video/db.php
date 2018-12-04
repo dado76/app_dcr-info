@@ -1,7 +1,7 @@
 <?php
 
 $username = 'root';
-$password = '';
+$password = 'root';
 $connection = new PDO( 'mysql:host=localhost;dbname=dcr_info', $username, $password );
 
 ?>

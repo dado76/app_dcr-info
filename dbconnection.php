@@ -12,7 +12,7 @@ class Database extends pdo {
         $this->dbtype = 'mysql';
         $this->host = 'localhost';
         $this->user = 'root';
-        $this->pass = '';
+        $this->pass = 'root';
         $this->database = 'dcr_info'; 
         $dns = $this->dbtype.':dbname='.$this->database.";host=".$this->host;
         parent::__construct( $dns, $this->user, $this->pass );
