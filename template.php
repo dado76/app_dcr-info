@@ -44,9 +44,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <a href="./radio/template.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-microphone fa-fw "></i>Radio</a>
     <a href="./suivis/template.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-check fa-fw "></i>Suivis</a>
         <a href="./tripratik/template.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-trash fa-fw "></i>Tripratik</a>
-    <a href="./bom/template.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-truck fa-fw"></i>Véhicule de collecte</a>
+
     <a href="./video/template.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-video-o fa-fw"></i>Video Protection</a>
-	    <a href="./profil.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw"></i>Profil</a>
+
     <a href="./logout.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-close fa-fw"></i>Deconnection</a><br><br>
   </div>
 </nav>
